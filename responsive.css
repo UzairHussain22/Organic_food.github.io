@@ -1,0 +1,38 @@
+@media screen and (max-width: 375px) {
+
+    #main-start{
+     .logoorga{
+        width: 100px;  
+     }
+     .nav1>nav{
+        display:flex;
+        flex-direction: column;
+        gap: 5px;
+     }
+     .nav2>nav>.abt,.cnt  {
+display: flex;
+flex-direction: column;
+
+     }
+     .cnt, .abt{
+        display: block;
+     }
+     #hamburger
+    {
+        display: block;
+    }
+
+    }
+
+
+
+    #main{display: none;}
+    .benefits{display: none;}
+    .best_sell{display: none;}
+    .grocery_sect{display: none;}
+    .trending{display: none;}
+    .customer_rev{display: none;}
+    footer{
+        display: none;
+    }
+}
